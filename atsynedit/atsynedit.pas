@@ -1030,7 +1030,7 @@ type
     procedure MouseMove(Shift: TShiftState; X,Y: Integer); override;
     procedure MouseLeave; override;
     function DoMouseWheel(Shift: TShiftState; WheelDelta: integer; MousePos{%H-}: TPoint): boolean; override;
-    function DoMouseWheelHorz(Shift: TShiftState; WheelDelta: integer; MousePos{%H-}: TPoint): boolean; override;
+    function DoMouseWheelHorz(Shift: TShiftState; WheelDelta: integer; MousePos{%H-}: TPoint): boolean; 
     procedure DblClick; override;
     procedure TripleClick; override;
     function DoGetTextString: atString; virtual;
