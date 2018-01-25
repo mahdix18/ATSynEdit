@@ -108,12 +108,13 @@ begin
   //
 end;
 
-procedure TATAdapterHilite.OnEditorCalcHilite(Sender: TObject;
-  var AParts: TATLineParts; ALineIndex, ACharIndex, ALineLen: integer;
-  var AColorAfterEol: TColor);
+procedure TATAdapterHilite.OnEditorCalcHilite(      Sender: TObject;
+      var AParts: TATLineParts;
+      var ALineIndex, ACharIndex, ALineLen: integer;
+      var AColorAfterEol: TColor);
 begin
   //
-end;
+end;  
 
 procedure TATAdapterHilite.OnEditorCalcPosColor(Sender: TObject; AX,
   AY: integer; var AColor: TColor);
